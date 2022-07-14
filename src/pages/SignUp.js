@@ -55,7 +55,7 @@ export default function SignUp() {
         <form onSubmit={submitChackin} >
             <div className="flex flex-col text-center ml-[490px]">
             <input 
-            className="font-gilroy-medium text-[18px] mt-[30px] outline-none pl-[29px] pt-[22px] pb-[22px] bg-[#F6F8FF] w-[50%] rounded-[15px]"
+            className="font-gilroy-medium text-[18px] mt-[30px] pl-[29px] pt-[22px] pb-[22px] bg-[#F6F8FF] w-[50%] rounded-[15px]"
             type="username"
             id="username"
             name="username"
@@ -64,7 +64,7 @@ export default function SignUp() {
             onChange={changeInputRegister}
             />
             <input
-            className="font-gilroy-medium text-[18px] mt-[10px] outline-none pl-[29px] pt-[22px] pb-[22px] bg-[#F6F8FF] w-[50%] rounded-[15px]"
+            className="font-gilroy-medium text-[18px] mt-[10px] pl-[29px] pt-[22px] pb-[22px] bg-[#F6F8FF] w-[50%] rounded-[15px]"
             type="email"
             id="email"
             name="email"
