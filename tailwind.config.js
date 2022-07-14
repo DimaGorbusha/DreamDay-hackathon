@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        main: "#3A82F1"
+      },
+      fontFamily: {
+        'gilroy-bold': ['Gilroy-Bold'],
+        'gilroy-medium': ['Gilroy-Medium'],
+      }
+    },
   },
   plugins: [],
 }
