@@ -1,5 +1,4 @@
 import psycopg2
-from random import randint
 # huy\\//govno228
 class DB:
     """
